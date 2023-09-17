@@ -1,7 +1,7 @@
 --[[
 ╭━╮╱╭╮╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╱╱╱╱╭━━━╮╱╭╮            |
 ┃┃╰╮┃┃╱╱╱╱╱╱╱╱┃┃╱╱╱╱╱╱╱╱╱╱┃╭━╮┃╱┃┃            |
-┃╭╮╰╯┣━━┳╮╭┳━━┫┃╭━━┳━━┳━━╮┃┃╱┃┣━╯┣╮╭┳┳━╮     | Welcome to the Nameless Admin source, feel free to take a look around.
+┃╭╮╰╯┣━━┳╮╭┳━━┫┃╭━━┳━━┳━━╮┃┃╱┃┣━╯┣╮╭┳┳━╮     | Welcome to the ShadowX Admin source, feel free to take a look around.
 ┃┃╰╮┃┃╭╮┃╰╯┃┃━┫┃┃┃━┫━━┫━━┫┃╰━╯┃╭╮┃╰╯┣┫╭╮╮    | Enjoy.
 ┃┃╱┃┃┃╭╮┃┃┃┃┃━┫╰┫┃━╋━━┣━━┃┃╭━╮┃╰╯┃┃┃┃┃┃┃┃    |
 ╰╯╱╰━┻╯╰┻┻┻┻━━┻━┻━━┻━━┻━━╯╰╯╱╰┻━━┻┻┻┻┻╯╰╯    |
@@ -748,14 +748,14 @@
  if PrefixChange == nil then
  Notify({
  Description = "Please enter a valid prefix";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
  elseif PrefixChange == "p" or PrefixChange == "[" or PrefixChange == "P" then
 	 Notify({
 		 Description = "idk why but this prefix breaks changing the prefix so pick smthing else alr?";
-		 Title = "Nameless Admin";
+		 Title = "ShadowX Admin";
 		 Duration = 5;
 		 
 		 });
@@ -763,7 +763,7 @@
  opt.prefix = PrefixChange
  Notify({
  Description = "Prefix set to " .. PrefixChange .. "";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -777,23 +777,23 @@
  if PrefixChange == nil then
  Notify({
  Description = "Please enter a valid prefix";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
  elseif PrefixChange == "p" or PrefixChange == "[" or PrefixChange == "P" then
 	 Notify({
 		 Description = "idk why but this prefix breaks changing the prefix so pick smthing else alr?";
-		 Title = "Nameless Admin";
+		 Title = "ShadowX Admin";
 		 Duration = 5;
 		 
 		 });
 	 else
- writefile("Nameless-Admin\\Prefix.txt", PrefixChange)
+ writefile("ShadowX-Admin\\Prefix.txt", PrefixChange)
  opt.prefix = PrefixChange
  Notify({
  Description = "Prefix saved to '" .. PrefixChange .. "'";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -836,7 +836,7 @@
  
  Notify({
  Description = "Hat orbit loaded, if you wanna orbit other people type in the chat .orbit playername";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 10;
  
  });
@@ -2029,8 +2029,8 @@ print(Time)
  cmd.add({"commandcount", "cc"}, {"commandcount (cc)", "Counds how many commands NA has"}, function()
  
  Notify({
-	 Description = "Nameless Admin currently has ".. commandcount .. " commands";
-	 Title = "Nameless Admin";
+	 Description = "ShadowX Admin currently has ".. commandcount .. " commands";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
 	 });
@@ -2040,7 +2040,7 @@ print(Time)
  cmd.add({"walkfling", "wfling"}, {"walkfling (wfling) [THANKS TO X]", "probably the best fling lol"}, function()
 	 Notify({
 		 Description = "Walkfling enabled";
-		 Title = "Nameless Admin";
+		 Title = "ShadowX Admin";
 		 Duration = 5;
 		 
 		 });
@@ -2086,7 +2086,7 @@ print(Time)
  cmd.add({"unwalkfling", "unwfling"}, {"unwalkfling (unwfling)", "stop the walkfling command"}, function()
 	 Notify({
 		 Description = "Walkfling disabled";
-		 Title = "Nameless Admin";
+		 Title = "ShadowX Admin";
 		 Duration = 5;
 		 
 		 });
@@ -2219,7 +2219,7 @@ print(Time)
  
  Notify({
  Description = "Rejoining...";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -2452,7 +2452,7 @@ print(Time)
  
  Notify({
  Description = accountage;
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 7;
  
  });
@@ -2922,7 +2922,7 @@ print(Time)
 		 
 		 Notify({
 		 Description = "Vehicle fly enabled";
-		 Title = "Nameless Admin";
+		 Title = "ShadowX Admin";
 		 Duration = 5;
 	 
  });
@@ -2941,7 +2941,7 @@ print(Time)
 		 
 		 Notify({
 		 Description = "Vehicle fly disabled";
-		 Title = "Nameless Admin";
+		 Title = "ShadowX Admin";
 		 Duration = 5;
 	 
  });
@@ -3286,7 +3286,7 @@ print(Time)
  
  Notify({
  Description = "Break layered clothing executed, if you havent already equip shirt, jacket, pants and shoes (Layered Clothing ones)";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -3650,7 +3650,7 @@ print(Time)
  else
  Notify({
  Description = "Sorry, wont replicate for this game, try another game.";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -4254,7 +4254,7 @@ print(Time)
 					 
 					 Notify({
 					 Description = "Anti sit enabled";
-					 Title = "Nameless Admin";
+					 Title = "ShadowX Admin";
 					 Duration = 5;
 					 
  });
@@ -4270,7 +4270,7 @@ print(Time)
 					 
 					 Notify({
 					 Description = "Anti sit disabled";
-					 Title = "Nameless Admin";
+					 Title = "ShadowX Admin";
 					 Duration = 5;
 					 
  });
@@ -4299,7 +4299,7 @@ print(Time)
  
 			 Notify({
 				 Description = "Respect Filtering Enabled is on";
-				 Title = "Nameless Admin";
+				 Title = "ShadowX Admin";
 				 Duration = 5;
 				 
 				 });
@@ -4307,7 +4307,7 @@ print(Time)
 				 
  Notify({
 	 Description = "Respect Filtering Enabled is off";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
 	 });
@@ -4388,7 +4388,7 @@ print(Time)
 		 cmd.add({"harked", "comet"}, {"harked (comet)", "Executes Comet which is like harked"}, function()
 			 Notify({
  Description = "Join the discord to see supported games! Use the discord command to get the invite";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 7;
  
  });
@@ -4517,7 +4517,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
  
  Notify({
  Description = "Keybind: Q";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -4542,7 +4542,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 				 
 				 Notify({
 				 Description = "Anti AFK has been enabled";
-				 Title = "Nameless Admin";
+				 Title = "ShadowX Admin";
 				 Duration = 5;
 				 
  });
@@ -4579,7 +4579,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 						 
 						 Notify({
 						 Description = "Anti attach enabled";
-						 Title = "Nameless Admin";
+						 Title = "ShadowX Admin";
 						 Duration = 5;
 						 
  });
@@ -4595,7 +4595,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 							 
 							 Notify({
 							 Description = "Anti attach disabled";
-							 Title = "Nameless Admin";
+							 Title = "ShadowX Admin";
 							 Duration = 5;
 							 
  });
@@ -4607,7 +4607,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 							 
 							 Notify({
 							 Description = "Anti attach already disabled";
-							 Title = "Nameless Admin";
+							 Title = "ShadowX Admin";
 							 Duration = 5;
 							 
  });
@@ -4622,7 +4622,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 							 
 							 Notify({
 							 Description = "Spawn has been set";
-							 Title = "Nameless Admin";
+							 Title = "ShadowX Admin";
 							 Duration = 5;
 							 
  });
@@ -4729,7 +4729,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 						 
 						 Notify({
 						 Description = "Anti AFK disabled";
-						 Title = "Nameless Admin";
+						 Title = "ShadowX Admin";
 						 Duration = 5;
 						 
  });
@@ -4738,7 +4738,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 						 
 						 Notify({
 						 Description = "Anti AFK already disabled";
-						 Title = "Nameless Admin";
+						 Title = "ShadowX Admin";
 						 Duration = 5;
 						 
  });
@@ -4751,7 +4751,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
  
  Notify({
  Description = "For a better experience, use R6 if you want tools do ;dupetools 5";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -4813,7 +4813,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 					 
 					 Notify({
 					 Description = "Anti kill enabled";
-					 Title = "Nameless Admin";
+					 Title = "ShadowX Admin";
 					 Duration = 5;
 					 
  });
@@ -4845,7 +4845,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
 				 
 				 Notify({
 				 Description = "Anti kill disabled";
-				 Title = "Nameless Admin";
+				 Title = "ShadowX Admin";
 				 Duration = 5;
 				 
  });
@@ -4882,7 +4882,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/m
  wait();
  Notify({
  Description = "Anti fling enabled";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
 });
@@ -4894,7 +4894,7 @@ AntiFling = true
 wait();
 Notify({
 Description = "Anti fling disabled";
-Title = "Nameless Admin";
+Title = "ShadowX Admin";
 Duration = 5;
 
 });
@@ -4915,7 +4915,7 @@ end
 				wait();
 				Notify({
 				Description = "Wait a few seconds for it to load";
-				Title = "Nameless Admin";
+				Title = "ShadowX Admin";
 				Duration = 5;
 				
 });
@@ -5092,7 +5092,7 @@ until npcfollowloop == false
  
  Notify({
  Description = "ControlNPCs executed, CTRL + Click on an NPC";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -5150,7 +5150,7 @@ until npcfollowloop == false
  
  Notify({
  Description = "AttachPart executed, CTRL + Click on a part";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -5512,7 +5512,7 @@ end
  
  Notify({
  Description = "Netless has been activated, re-run this script if you die";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -5526,7 +5526,7 @@ end
  
  Notify({
  Description = "Get ready to launch...";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -5685,7 +5685,7 @@ end
  
  Notify({
  Description = "Kidnapping... next time take a van, or not";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -5879,20 +5879,20 @@ end
 	 local Player = getPlr(...)
 	 if Player ~= nil and not Admin[Player.UserId] then
 		 Admin[Player.UserId] = {Player = Player}
-		 ChatMessage("/w "..Player.Name.." [Nameless Admin] You've got admin. Prefix: ';'")
+		 ChatMessage("/w "..Player.Name.." [ShadowX Admin] You've got admin. Prefix: ';'")
 		 wait(0.2)
-		 ChatMessage("/w "..Player.Name.." [Nameless Admin Commands] glue, unglue, fling, fling2, spinfling, unspinfling, fcd, fti, fpp, fireremotes, holdhat")
+		 ChatMessage("/w "..Player.Name.." [ShadowX Admin Commands] glue, unglue, fling, fling2, spinfling, unspinfling, fcd, fti, fpp, fireremotes, holdhat")
 		 ChatMessage("/w "..Player.Name.." reset, commitoof, seizure, unseizure, toolorbit, lay, fall, toolspin, hatspin, sit, joke, kanye")
 		 Notify({
 			 Description = "" .. Player.Name .. " has now been whitelisted to use commands";
-			 Title = "Nameless Admin";
+			 Title = "ShadowX Admin";
 			 Duration = 15;
 			 
 			 });
 	 else
 		 Notify({
 			 Description = "No player found";
-			 Title = "Nameless Admin";
+			 Title = "ShadowX Admin";
 			 Duration = 15;
 			 
 			 });
@@ -5908,14 +5908,14 @@ end
 				 ChatMessage("/w "..Player.Name.." You can no longer use commands")
 					 Notify({
 				 Description = "" .. Player.Name .. " is no longer an admin";
-				 Title = "Nameless Admin";
+				 Title = "ShadowX Admin";
 				 Duration = 15;
 				 
 				 });
 			 else
 						 Notify({
 				 Description = "Player not found";
-				 Title = "Nameless Admin";
+				 Title = "ShadowX Admin";
 				 Duration = 15;
 				 
 				 });
@@ -5934,7 +5934,7 @@ end
  wait();
  Notify({
  Description = "Display names successfully removed";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -5966,7 +5966,7 @@ end
 	if not hookmetamethod then 
 		Notify({
 			Description = "Your executor does not support anticlientkick";
-			Title = "Nameless Admin";
+			Title = "ShadowX Admin";
 			Duration = 5;
 			
 			});
@@ -5982,7 +5982,7 @@ end
 			return
 			Notify({
 				Description = "A kick was just attempted but was blocked";
-				Title = "Nameless Admin";
+				Title = "ShadowX Admin";
 				Duration = 5;
 				
 				});
@@ -5991,7 +5991,7 @@ end
 			end)
  Notify({
  Description = "Anti kick executed";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -6010,7 +6010,7 @@ end
  
  Notify({
  Description = "Copied your jobid (" .. jobId .. ")";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -6025,7 +6025,7 @@ end
  
  Notify({
  Description = "Searching";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -6042,7 +6042,7 @@ end
 				 if #SomeSRVS > 0 then
 				 Notify({
  Description = "Searched, please wait while we are teleporting you";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -6071,7 +6071,7 @@ end
 
 		Notify({
 			Description = "Auto Rejoin is now on!";
-			Title = "Nameless Admin";
+			Title = "ShadowX Admin";
 			Duration = 5;
 			
 			}); end)
@@ -6493,8 +6493,8 @@ end
 		 wait();
 		 
 		 Notify({
-		 Description = "Nameless Admin has detected you using mobile you now have a mfly button click it to enable / disable mobile flying (For easier use)";
-		 Title = "Nameless Admin";
+		 Description = "ShadowX Admin has detected you using mobile you now have a mfly button click it to enable / disable mobile flying (For easier use)";
+		 Title = "ShadowX Admin";
 		 Duration = 5;
 		 });
 		 
@@ -6563,7 +6563,7 @@ end
 		 
 		 Notify({
 		 Description = "Fly enabled";
-		 Title = "Nameless Admin";
+		 Title = "ShadowX Admin";
 		 Duration = 5;
 	 
  });
@@ -6582,7 +6582,7 @@ end
 		 
 		 Notify({
 		 Description = "Not flying anymore";
-		 Title = "Nameless Admin";
+		 Title = "ShadowX Admin";
 		 Duration = 5;
 	 
  });
@@ -6619,7 +6619,7 @@ end
  then
  Notify({
  Description = "You are now R15";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 3;
  
  });
@@ -6627,7 +6627,7 @@ end
  else
  Notify({
  Description = "An error has occured";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 3;
  
  });
@@ -6647,7 +6647,7 @@ end
  then
  Notify({
  Description = "You are now R6";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 3;
  
  });
@@ -6655,7 +6655,7 @@ end
  else
  Notify({
  Description = "An error has occured";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 3;
  
  });
@@ -7110,7 +7110,7 @@ end
 	 
 	 Notify({
 	 Description = "Hid the player";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -7157,7 +7157,7 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
 	 
 	 Notify({
 	 Description = "Unhid the player";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -7459,7 +7459,7 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
  
  Notify({
  Description = "Copied the username of " .. target.DisplayName .. "";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 7;
  
  });
@@ -7476,7 +7476,7 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
  
  Notify({
  Description = "Copied the display name of " .. target.Name .. "";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 7;
  
  });
@@ -7896,7 +7896,7 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
 		 
 		 Notify({
 		 Description = description;
-		 Title = "Nameless Admin";
+		 Title = "ShadowX Admin";
 		 Duration = 5;
 		 
 		 });
@@ -7951,7 +7951,7 @@ game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageReque
 	 
 	 Notify({
 	 Description = "Btools loading, wait 2 seconds.";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
 	 });
@@ -8025,7 +8025,7 @@ print(text)
 	 
 	 Notify({
 	 Description = "Netbypass enabled";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
 	 });
@@ -8106,7 +8106,7 @@ print(text)
  TextLabel_2.Position = UDim2.new(0.0269662924, 0, 0.162698418, 0)
  TextLabel_2.Size = UDim2.new(0, 421, 0, 115)
  TextLabel_2.Font = Enum.Font.SourceSans
- TextLabel_2.Text = "You are executing an anti-chat-log script meaning that Nameless Admin wouldnt be able to detect when you have chatted meaning if you are on mobile and use the chat to execute commands it wont work. Are you sure you want to execute this?"
+ TextLabel_2.Text = "You are executing an anti-chat-log script meaning that ShadowX Admin wouldnt be able to detect when you have chatted meaning if you are on mobile and use the chat to execute commands it wont work. Are you sure you want to execute this?"
  TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
  TextLabel_2.TextScaled = true
  TextLabel_2.TextSize = 14.000
@@ -8623,7 +8623,7 @@ print(Time)
 	 
 	 Notify({
 	 Description = "Equip one of your tools.";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -9220,7 +9220,7 @@ getChar().HumanoidRootPart.CFrame = target.Character.Humanoid.RootPart.CFrame
 	 
 	 Notify({
 	 Description = "Audio link has been copied to your clipboard";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -9359,7 +9359,7 @@ getChar().HumanoidRootPart.CFrame = target.Character.Humanoid.RootPart.CFrame
 	 
 	 Notify({
 	 Description = "Chat translated";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -9659,7 +9659,7 @@ getChar().HumanoidRootPart.CFrame = target.Character.Humanoid.RootPart.CFrame
 	 
 	 Notify({
 	 Description = "Hat resize loaded, rthro needed.";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -9672,7 +9672,7 @@ getChar().HumanoidRootPart.CFrame = target.Character.Humanoid.RootPart.CFrame
 	 
 	 Notify({
 	 Description = "discord.gg/mW442YxE4j";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 15;
 	 
 	 });
@@ -9706,7 +9706,7 @@ getChar().HumanoidRootPart.CFrame = target.Character.Humanoid.RootPart.CFrame
 	 
 	 Notify({
 	 Description = "Leg resize loaded, R15 only";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -9747,7 +9747,7 @@ getChar().HumanoidRootPart.CFrame = target.Character.Humanoid.RootPart.CFrame
  
  Notify({
  Description = "Making you small.. r15 needed";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -10056,7 +10056,7 @@ end
  
  Notify({
  Description = "Free gamepass has been executed, keep in mind this wont always work.";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -10294,7 +10294,7 @@ end
 			 
 			 Notify({
 			 Description = "Banging player...";
-			 Title = "Nameless Admin";
+			 Title = "ShadowX Admin";
 			 Duration = 5;
 			 
 			 });
@@ -10374,7 +10374,7 @@ until glueloop == false
  
  Notify({
  Description = "Airwalk: OFF";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -10388,7 +10388,7 @@ until glueloop == false
  
  Notify({
  Description = "Airwalk: On";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -10459,7 +10459,7 @@ until glueloop == false
 	 
 	 Notify({
 	 Description = "Boombox muted. Status: Client Sided";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
 	 });
@@ -10468,7 +10468,7 @@ until glueloop == false
 	 
 	 Notify({
 	 Description = "Boombox muted. Status: FE";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
 	 });
@@ -10638,7 +10638,7 @@ until glueloop == false
 				 
 				 Notify({
 				 Description = "Boombox glitched. Status: Client Sided";
-				 Title = "Nameless Admin";
+				 Title = "ShadowX Admin";
 				 Duration = 5;
 				 
 				 });
@@ -10651,7 +10651,7 @@ until glueloop == false
 				 
 				 Notify({
 				 Description = "Boombox glitched. Status: FE";
-				 Title = "Nameless Admin";
+				 Title = "ShadowX Admin";
 				 Duration = 5;
 				 
 				 });
@@ -10671,7 +10671,7 @@ until glueloop == false
 	 
 	 Notify({
 	 Description = "Unloopmuted everyone";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
 	 });
@@ -10725,7 +10725,7 @@ until glueloop == false
  
  Notify({
  Description = "Boombox glitched. Status: Client Sided";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -10738,7 +10738,7 @@ until glueloop == false
  
  Notify({
  Description = "Boombox glitched. Status: FE";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -10757,7 +10757,7 @@ until glueloop == false
 			 
 			 Notify({
 			 Description = "Boombox unglitched. Status: Client Sided";
-			 Title = "Nameless Admin";
+			 Title = "ShadowX Admin";
 			 Duration = 5;
 			 
 			 });
@@ -10770,7 +10770,7 @@ until glueloop == false
 			 
 			 Notify({
 			 Description = "Boombox unglitched. Status: FE";
-			 Title = "Nameless Admin";
+			 Title = "ShadowX Admin";
 			 Duration = 5;
 			 
 			 });
@@ -10882,7 +10882,7 @@ until glueloop == false
 		 
 			 Notify({
 			 Description = target.Name .. "'s mass is " .. mass;
-			 Title = "Nameless Admin";
+			 Title = "ShadowX Admin";
 			 Duration = 5;
 			 
 			 });
@@ -11928,7 +11928,7 @@ until glueloop == false
 					 
 					 Notify({
 					 Description = "Purchase prompts have been disabled";
-					 Title = "Nameless Admin";
+					 Title = "ShadowX Admin";
 					 Duration = 5;
 					 
 					 });
@@ -11943,15 +11943,15 @@ until glueloop == false
 					 
 					 Notify({
 					 Description = "Purchase prompts have been enabled";
-					 Title = "Nameless Admin";
+					 Title = "ShadowX Admin";
 					 Duration = 5;
 					 
 					 });
 					 game.CoreGui.PurchasePrompt.Enabled = true
 				 end)
 				 
-								 cmd.add({"nameless"}, {"nameless", "Makes your hats visible but not your name or your body"}, function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/nameless"))()
+								 cmd.add({"ShadowX"}, {"ShadowX", "Makes your hats visible but not your name or your body"}, function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/ShadowX"))()
  end)
  
  
@@ -12021,7 +12021,7 @@ until glueloop == false
  
  Notify({
  Description = "Hold parts loaded, ctrl + click on a part";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -12151,7 +12151,7 @@ until glueloop == false
 	 
 	 Notify({
 	 Description = "Spinning...";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -12181,7 +12181,7 @@ until glueloop == false
  
  Notify({
  Description = "Spin disabled";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -12223,7 +12223,7 @@ until glueloop == false
 	 
 	 Notify({
 	 Description = "Name has been hidden, this only works on billboard guis / custom name fonts";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -12254,7 +12254,7 @@ until glueloop == false
 	 
 	 Notify({
 	 Description = "Made unanchored parts have no gravity";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -12312,7 +12312,7 @@ until glueloop == false
  
  Notify({
  Description = "Fired " .. ccamount .. " amount of click detectors";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 7;
  
  });
@@ -12501,7 +12501,7 @@ loophitbox = false
  
  Notify({
  Description = "Hitbox changed";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -12579,7 +12579,7 @@ end)
  
  Notify({
  Description = "Car breaker loaded, sit on a vehicle need to be the driver";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -12673,7 +12673,7 @@ end)
  
  Notify({
  Description = "Fired " .. ftiamount .. " amount of touch interests";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 7;
  
  });
@@ -12687,7 +12687,7 @@ end)
 	 
 	 Notify({
 	 Description = "Infinite jump enabled";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -12715,7 +12715,7 @@ end)
  
  Notify({
  Description = "Infinite jump disabled";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -12743,7 +12743,7 @@ end)
 	 
 	 Notify({
 	 Description = "Xray enabled";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -12759,7 +12759,7 @@ end)
 	 
 	 Notify({
 	 Description = "Xray disabled";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -12775,7 +12775,7 @@ end)
 	 
 	 Notify({
 	 Description = "Pastebin scraper loaded";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -12794,7 +12794,7 @@ end)
 	 
 	 Notify({
 	 Description = "Amog us...";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -12877,7 +12877,7 @@ end)
 	 
 	 Notify({
 	 Description = "Blackhole has been loaded, press e to change the position to where your mouse is";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -13013,7 +13013,7 @@ end)
  
  Notify({
  Description = "Fired " .. fppamount .. " of proximity prompts";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 7;
  
  });
@@ -13056,7 +13056,7 @@ end)
 	 
 	 Notify({
 	 Description = "Chat spy enabled";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -13504,7 +13504,7 @@ game.Players.LocalPlayer.CameraMode = "LockFirstPerson"
 	 
 			Notify({
 			Description = "Sorry, your exploit does not support cameranoclip";
-			Title = "Nameless Admin";
+			Title = "ShadowX Admin";
 			Duration = 5;
 			
 		});
@@ -13532,7 +13532,7 @@ game.Players.LocalPlayer.CameraMode = "LockFirstPerson"
 	 
 			Notify({
 			Description = "Sorry, your exploit does not support cameranoclip and uncameranoclip";
-			Title = "Nameless Admin";
+			Title = "ShadowX Admin";
 			Duration = 5;
 			
 		});
@@ -13551,7 +13551,7 @@ game.Players.LocalPlayer.CameraMode = "LockFirstPerson"
 	 
 	 Notify({
 	 Description = "OG animations set";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -13923,7 +13923,7 @@ end)
  
  Notify({
  Description = "Invisible loaded, press " .. Keybind .. " to toggle";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 10;
  
  });
@@ -13932,8 +13932,8 @@ end)
 	 wait();
 	 
 	 Notify({
-	 Description = "Nameless Admin has detected you using mobile you now have a invisible button click it to enable / disable invisibility";
-	 Title = "Nameless Admin";
+	 Description = "ShadowX Admin has detected you using mobile you now have a invisible button click it to enable / disable invisibility";
+	 Title = "ShadowX Admin";
 	 Duration = 7;
 	 });
 	 
@@ -14022,7 +14022,7 @@ end)
  
  Notify({
  Description = "Chat spy enabled";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -14113,7 +14113,7 @@ end)
  
  Notify({
  Description = "Fired " .. remoteamount .. " amount of remotes";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 7;
  
  });
@@ -14125,7 +14125,7 @@ end)
 	 
 	 Notify({
 	 Description = "Unanchored follow executed";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -14231,7 +14231,7 @@ end)
  
  Notify({
  Description = "Grabbed all tools";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -14301,7 +14301,7 @@ end)
 	 
 	 Notify({
 	 Description = "Part grabber executed, press Q on a part";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -14420,7 +14420,7 @@ end)
 	 
 	 Notify({
 	 Description = "Unanchored parts have been teleported to " .. TargetName .. "" ;
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -14496,7 +14496,7 @@ end)
 	 
 	 Notify({
 	 Description = "Unfroze unanchored parts";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -14520,7 +14520,7 @@ end)
 	 
 	 Notify({
 	 Description = "Highlighted all unanchored parts";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -14539,7 +14539,7 @@ end)
 	 
 	 Notify({
 	 Description = "Unhighlighted unanchored parts";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -14563,7 +14563,7 @@ end)
 	 
 	 Notify({
 	 Description = "Parts have been counted, the amount is " .. b .. "";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 	 Duration = 5;
 	 
  });
@@ -14582,7 +14582,7 @@ end)
  
  Notify({
  Description = "Set local player id to the owner id";
- Title = "Nameless Admin";
+ Title = "ShadowX Admin";
  Duration = 5;
  
  });
@@ -14611,8 +14611,8 @@ end)
 
  if CustomFunctionSupport then
  local success, result = pcall(function()
-			 for i,v in pairs(listfiles("Nameless-Admin/Plugins")) do
-			 loadstring(readfile(listfiles("Nameless-Admin/Plugins")[i]))();
+			 for i,v in pairs(listfiles("ShadowX-Admin/Plugins")) do
+			 loadstring(readfile(listfiles("ShadowX-Admin/Plugins")[i]))();
  PluginsLoaded = PluginsLoaded + 1
  end
  end)
@@ -14621,7 +14621,7 @@ end)
 	 PluginsErrored = PluginsErrored + 1
 	 Notify({
 		 Description = "Plugin error: " .. result .. "";
-		 Title = "Nameless Admin";
+		 Title = "ShadowX Admin";
 		 Duration = 3;
 		 
 		 });
@@ -14631,14 +14631,14 @@ end)
  if PluginsErrored == 0 then
 	 Notify({
 			 Description = "Loaded " .. PluginsLoaded .. " plugins";
-			 Title = "Nameless Admin";
+			 Title = "ShadowX Admin";
 			 Duration = 3;
 			 
 			 });
  else
 	 Notify({
 	 Description = "Loaded " .. PluginsLoaded .. " plugins, although " .. PluginsErrored .. " plugins have errored";
-	 Title = "Nameless Admin";
+	 Title = "ShadowX Admin";
 			 Duration = 3;
 			 
 			 });
@@ -15122,7 +15122,7 @@ end
  TextClickButton.Position = UDim2.new(0.418, 0,0, 0)
  TextClickButton.Size = UDim2.new(0, 2, 0, 33)
  TextClickButton.Font = Enum.Font.SourceSansBold
- TextClickButton.Text = "Nameless Admin " .. currentversion .. ""
+ TextClickButton.Text = "Shadow X Admin " .. currentversion .. ""
  TextClickButton.TextColor3 = Color3.fromRGB(255, 255, 255)
  TextClickButton.TextSize = 20.000
  TextClickButton.TextWrapped = true
@@ -15140,7 +15140,7 @@ end
 	 textclickbutton:TweenSize(UDim2.new(0, 32, 0, 33), "Out", "Quint",1,true)
 	 textclickbutton:TweenPosition(UDim2.new(0.48909232, 0, 0, 0), "Out", "Quint",1,true)
 	 wait(0.4)
-	 textclickbutton.Text = "SX/A"
+	 textclickbutton.Text = "SX"
 	 textclickbutton.Active = true
  gui.draggable(textclickbutton)
  end
